@@ -1,17 +1,722 @@
 [
-{
-  "model": "play.player",
-  "pk": 1,
-  "fields": {
-    "name": "Joan Garcia",
-    "position": "GK",
-    "number": 1,
-    "team": "Barcelona",
-    "age": 24,
-    "height": null,
-    "weight": null,
-    "created_at": "2025-12-19T12:03:23.339Z",
-    "is_starting": true
+  {
+    "model": "play.player",
+    "pk": 1,
+    "fields": {
+      "name": "Marc-André ter Stegen",
+      "position": "GK",
+      "number": 1,
+      "team": "Barcelona",
+      "age": 33,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 2,
+    "fields": {
+      "name": "Joan García",
+      "position": "GK",
+      "number": 13,
+      "team": "Barcelona",
+      "age": 24,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 3,
+    "fields": {
+      "name": "Wojciech Szczęsny",
+      "position": "GK",
+      "number": 25,
+      "team": "Barcelona",
+      "age": 35,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 4,
+    "fields": {
+      "name": "Alejandro Balde",
+      "position": "LB",
+      "number": 3,
+      "team": "Barcelona",
+      "age": 22,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 5,
+    "fields": {
+      "name": "Ronald Araújo",
+      "position": "CB",
+      "number": 4,
+      "team": "Barcelona",
+      "age": 26,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 6,
+    "fields": {
+      "name": "Pau Cubarsí",
+      "position": "CB",
+      "number": 5,
+      "team": "Barcelona",
+      "age": 18,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 7,
+    "fields": {
+      "name": "Andreas Christensen",
+      "position": "CB",
+      "number": 15,
+      "team": "Barcelona",
+      "age": 29,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 8,
+    "fields": {
+      "name": "Gerard Martín",
+      "position": "LB",
+      "number": 18,
+      "team": "Barcelona",
+      "age": 23,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 9,
+    "fields": {
+      "name": "Jules Koundé",
+      "position": "RB",
+      "number": 23,
+      "team": "Barcelona",
+      "age": 27,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 10,
+    "fields": {
+      "name": "Eric García",
+      "position": "CB",
+      "number": 24,
+      "team": "Barcelona",
+      "age": 24,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 11,
+    "fields": {
+      "name": "Gavi",
+      "position": "CM",
+      "number": 6,
+      "team": "Barcelona",
+      "age": 21,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 12,
+    "fields": {
+      "name": "Pedri",
+      "position": "CM",
+      "number": 8,
+      "team": "Barcelona",
+      "age": 23,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 13,
+    "fields": {
+      "name": "Fermín López",
+      "position": "CM",
+      "number": 16,
+      "team": "Barcelona",
+      "age": 22,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 14,
+    "fields": {
+      "name": "Marc Casadó",
+      "position": "CM",
+      "number": 17,
+      "team": "Barcelona",
+      "age": 22,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 15,
+    "fields": {
+      "name": "Dani Olmo",
+      "position": "CM",
+      "number": 20,
+      "team": "Barcelona",
+      "age": 27,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 16,
+    "fields": {
+      "name": "Frenkie de Jong",
+      "position": "CM",
+      "number": 21,
+      "team": "Barcelona",
+      "age": 28,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 17,
+    "fields": {
+      "name": "Marc Bernal",
+      "position": "CM",
+      "number": 22,
+      "team": "Barcelona",
+      "age": 18,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 18,
+    "fields": {
+      "name": "Ferran Torres",
+      "position": "STR",
+      "number": 7,
+      "team": "Barcelona",
+      "age": 25,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 19,
+    "fields": {
+      "name": "Robert Lewandowski",
+      "position": "STR",
+      "number": 9,
+      "team": "Barcelona",
+      "age": 37,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 20,
+    "fields": {
+      "name": "Lamine Yamal",
+      "position": "RW",
+      "number": 10,
+      "team": "Barcelona",
+      "age": 18,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 21,
+    "fields": {
+      "name": "Raphinha",
+      "position": "LW",
+      "number": 11,
+      "team": "Barcelona",
+      "age": 29,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 22,
+    "fields": {
+      "name": "Marcus Rashford",
+      "position": "LW",
+      "number": 14,
+      "team": "Barcelona",
+      "age": 28,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 23,
+    "fields": {
+      "name": "Roony Bardghji",
+      "position": "RW",
+      "number": 28,
+      "team": "Barcelona",
+      "age": 20,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 24,
+    "fields": {
+      "name": "Thibaut Courtois",
+      "position": "GK",
+      "number": 1,
+      "team": "Real Madrid",
+      "age": 33,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 25,
+    "fields": {
+      "name": "Andriy Lunin",
+      "position": "GK",
+      "number": 13,
+      "team": "Real Madrid",
+      "age": 26,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 26,
+    "fields": {
+      "name": "Dani Carvajal",
+      "position": "RB",
+      "number": 2,
+      "team": "Real Madrid",
+      "age": 33,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 27,
+    "fields": {
+      "name": "Éder Militão",
+      "position": "CB",
+      "number": 3,
+      "team": "Real Madrid",
+      "age": 27,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 28,
+    "fields": {
+      "name": "David Alaba",
+      "position": "CB",
+      "number": 4,
+      "team": "Real Madrid",
+      "age": 33,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 29,
+    "fields": {
+      "name": "Trent Alexander-Arnold",
+      "position": "RB",
+      "number": 12,
+      "team": "Real Madrid",
+      "age": 27,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 30,
+    "fields": {
+      "name": "Mario Asencio",
+      "position": "CB",
+      "number": 17,
+      "team": "Real Madrid",
+      "age": 20,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 31,
+    "fields": {
+      "name": "Álvaro Carreras",
+      "position": "LB",
+      "number": 18,
+      "team": "Real Madrid",
+      "age": 22,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 32,
+    "fields": {
+      "name": "Fran García",
+      "position": "LB",
+      "number": 20,
+      "team": "Real Madrid",
+      "age": 25,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 33,
+    "fields": {
+      "name": "Antonio Rüdiger",
+      "position": "CB",
+      "number": 22,
+      "team": "Real Madrid",
+      "age": 32,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 34,
+    "fields": {
+      "name": "Ferland Mendy",
+      "position": "LB",
+      "number": 23,
+      "team": "Real Madrid",
+      "age": 30,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 35,
+    "fields": {
+      "name": "Dean Huijsen",
+      "position": "CB",
+      "number": 24,
+      "team": "Real Madrid",
+      "age": 19,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 36,
+    "fields": {
+      "name": "Jude Bellingham",
+      "position": "CM",
+      "number": 5,
+      "team": "Real Madrid",
+      "age": 22,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 37,
+    "fields": {
+      "name": "Eduardo Camavinga",
+      "position": "CM",
+      "number": 6,
+      "team": "Real Madrid",
+      "age": 22,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 38,
+    "fields": {
+      "name": "Federico Valverde",
+      "position": "CM",
+      "number": 8,
+      "team": "Real Madrid",
+      "age": 27,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 39,
+    "fields": {
+      "name": "Aurélien Tchouaméni",
+      "position": "CM",
+      "number": 14,
+      "team": "Real Madrid",
+      "age": 25,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 40,
+    "fields": {
+      "name": "Arda Güler",
+      "position": "CM",
+      "number": 15,
+      "team": "Real Madrid",
+      "age": 20,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 41,
+    "fields": {
+      "name": "Dani Ceballos",
+      "position": "CM",
+      "number": 19,
+      "team": "Real Madrid",
+      "age": 28,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 42,
+    "fields": {
+      "name": "Vinícius Júnior",
+      "position": "LW",
+      "number": 7,
+      "team": "Real Madrid",
+      "age": 25,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 43,
+    "fields": {
+      "name": "Endrick",
+      "position": "STR",
+      "number": 9,
+      "team": "Real Madrid",
+      "age": 19,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 44,
+    "fields": {
+      "name": "Kylian Mbappé",
+      "position": "STR",
+      "number": 10,
+      "team": "Real Madrid",
+      "age": 26,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 45,
+    "fields": {
+      "name": "Rodrygo",
+      "position": "RW",
+      "number": 11,
+      "team": "Real Madrid",
+      "age": 24,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": true
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 46,
+    "fields": {
+      "name": "Gonzalo",
+      "position": "STR",
+      "number": 16,
+      "team": "Real Madrid",
+      "age": 21,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 47,
+    "fields": {
+      "name": "Brahim Díaz",
+      "position": "STR",
+      "number": 21,
+      "team": "Real Madrid",
+      "age": 25,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
+  },
+  {
+    "model": "play.player",
+    "pk": 48,
+    "fields": {
+      "name": "Franco Mastantuono",
+      "position": "RW",
+      "number": 30,
+      "team": "Real Madrid",
+      "age": 17,
+      "height": null,
+      "weight": null,
+      "created_at": "2025-12-23T00:00:00.000Z",
+      "is_starting": false
+    }
   }
-}
 ]
