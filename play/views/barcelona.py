@@ -19,6 +19,7 @@ def barca_squad(request):
         line = f"{p.number}. {p.name} ({p.position})"
         lines.append(line)
         print(line)
-
+        print("mihate ban")
     body = "<br>".join(lines)
     return HttpResponse(body)
+

@@ -92,7 +92,8 @@ def barca_vs_real(request):
 
     best_player, best_rating = max(Ratings.items(), key=lambda x: x[1])
     print(f"\n************* MAN OF THE MACTH IS {best_player} - {round(best_rating, 1)} *************")
-    output.append(f"</br>************* MAN OF THE MACTH IS {best_player} - {round(best_rating, 1)} *************")   
+    output.append(f"</br>************* MAN OF THE MACTH IS {best_player} - {round(best_rating, 1)} *************")
+    print("miban")
 
     restore_initial_state(initial_state)
     return HttpResponse("<br>".join([x.decode() if isinstance(x, bytes) else x for x in output]))
